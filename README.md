@@ -1,6 +1,6 @@
 # Introduction
 
-+[![Circle CI](https://circleci.com/gh/phuongdo/go-redisproto.svg?style=svg&circle-token=f008be1b378dbf91d68b4b43e0cd2cab97698afe)](https://circleci.com/gh/phuongdo/go-redisproto)
+[![Circle CI](https://circleci.com/gh/phuongdo/go-redisproto.svg?style=svg&circle-token=f008be1b378dbf91d68b4b43e0cd2cab97698afe)](https://circleci.com/gh/phuongdo/go-redisproto)
 
 go-redisproto is a go library to create server, service for RPC that compatible with redis protocol
 I use it for some projects that require RPC, redis-protocol is a good choice because it can be parsed fast and
