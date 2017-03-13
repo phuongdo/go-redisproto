@@ -15,6 +15,7 @@ func handleConnection(conn net.Conn) {
 	writer := redisproto.NewWriter(bufio.NewWriter(conn))
 	var ew error
 	for {
+		// read a command from a connection
 		command, err := parser.ReadCommand()
 		if err != nil {
 			_, ok := err.(*redisproto.ProtocolError)
@@ -46,7 +47,7 @@ func handleConnection(conn net.Conn) {
 }
 
 func main() {
-	listener, err := net.Listen("tcp", ":6380")
+	listener, err := net.Listen("tcp", ": ")
 	if err != nil {
 		panic(err)
 	}
