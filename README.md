@@ -7,7 +7,7 @@ There are plenty of good client/server implementations of the redis protocol, bu
 `go-redisproto` is a lightweight library for building server software capable of exploit the advantages of the redis protocol and RPC.
 The advantages of `go-redisproto` is to use it's own buffered reader to avoid memory copy compared to other exist client libraries.
 It parses data really fast and requires a minimum amount of memory. Therefore, it enhances
-the performance in both client and server services, especially in some projects required RPC. .
+the performance in both client and server services, especially in some projects required RPC.
 This could be an alternate implementation of redis, a custom proxy to redis, and widely be used in high throughput API applications.
 
 # Acknowledgement
